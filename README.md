@@ -5,3 +5,7 @@ _February, 2018_
 ![Code Status](https://img.shields.io/badge/code-good-green.svg)
 
 Generates pixel patterns through combinatory methods.
+
+![Combination Example](images/example_combinations.png)
+
+![Image Example](images/example_image.png)
