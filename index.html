@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pattern Generator</title>
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+		}
+		svg, canvas {
+			image-rendering: pixelated;
+			border: 1px solid;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="gen()">GENERATE</button>
+	<div id="container"></div>
+
+	<script type="text/javascript" src="chroma.min.js"></script>
+	<script type="text/javascript" src="matrix.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
